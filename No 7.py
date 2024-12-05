@@ -67,7 +67,7 @@ def app():
     st.title("Visualisasi Jaringan Kota Provinsi Banten")
 
     # URL file JSON yang berisi koneksi antar kota
-    url = "https://raw.githubusercontent.com/Achphasesyafiq/lat-2/refs/heads/main/koneksi.json"
+    url = "https://raw.githubusercontent.com/Achphasesyafiq/Discrete/refs/heads/main/koneksi.json"
     
     # Memuat data dari GitHub
     city_connections = load_data_from_github(url)
